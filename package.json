@@ -1,0 +1,28 @@
+{
+  "name": "in-n-out-books",
+  "version": "1.0.0",
+  "description": "Web service for managing books using a mock database.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "engines": {
+    "node": "20.9.0",
+    "npm": "10.1.0"
+  }
+}
